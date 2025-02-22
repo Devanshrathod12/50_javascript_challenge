@@ -37,7 +37,7 @@
 // console.log(array.concat(array1))    /// array me   .concnat use krne se combin ho kste h
 // but usko ek e=raay ke sath add kro ( ) coll krke
 
-// q 39 ubble short ke thro u arrange krna h 
+// q 39 bubble short ke thro u arrange krna h 
 let array = [2,65,1,35,8,15,]
 for (let j = 0; j < array.length -1   ; j++) {
      for (let i = 0; i < array.length - j - 1; i++) {
@@ -45,9 +45,7 @@ for (let j = 0; j < array.length -1   ; j++) {
       let temp = array[i]
         array[i] = array[i+1]
         array[i+1] = temp
-        
         }
-        
      }
 }
 // console.log(array)
